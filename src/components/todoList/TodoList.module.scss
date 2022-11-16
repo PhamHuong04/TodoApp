@@ -1,0 +1,45 @@
+.addTodoButton {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.filter {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 30%;
+  margin-top: 40px;
+}
+
+.filterItem {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.selectBox {
+  border-radius: 1rem;
+  padding: 0.2rem 0.4rem;
+  width: 8rem;
+  color: #262626;
+  outline: none;
+  font-size: 16px;
+}
+
+.todoList {
+  margin: 40px 25% ;
+  border-radius: 10px;
+  border: 1px solid rgb(155, 155, 155);
+  box-shadow: 0 0 15px rgb(97, 95, 95);
+}
+
+.completed{
+  opacity: 0.4;
+}
+.loading {
+  min-height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

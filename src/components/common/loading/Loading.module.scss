@@ -1,0 +1,17 @@
+.loading {
+  border: 0.5rem solid #ededed;
+  border-top: 0.5rem solid #1664a8;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
